@@ -1,0 +1,37 @@
+/* Variables */
+/* Small Navigation */
+.logo-small {
+  float: right; }
+
+.title-bar {
+  padding: 0 .5rem; }
+
+.menu-icon,
+.title-bar-title {
+  margin: 10px; }
+
+/* Medium-Up Navigation */
+@media only screen and (min-width: 40rem) {
+	nav.top-bar {
+		text-align:center;
+		background: black;
+		padding: 0;
+		height: 38px;
+	}
+	section.top-bar-section {
+		display: inline-block;
+	}
+		.top-bar-section ul {
+			background: black;
+		}
+		.top-bar-section a {
+			color: #ffb3b3;
+			font-weight: bold;
+		}
+		.top-bar-section li:hover {
+			background: rgba(255,255,255,0.3);
+		}
+	.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+		border-color: #ffb3b3 transparent transparent;
+	}
+}
