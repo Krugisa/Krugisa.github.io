@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,63 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-  <!-- NAV BAR -->
-    <nav class="top-bar">
-      <section class="top-bar-section">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="portfolio">Portfolio</a>
-              <ul class="vertical menu">
-                <li><a href="frontend">UI/UX Design and Front-end Development</U></a></li>
+  <!-- HOME -->
+  <a name="home"></a>
+    <div class="site-anchor home">
+      <!-- NAV BAR -->
+      <!-- small screen -->
+      <div class="title-bar" data-responsive-toggle="nav-bar" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+      </div>
+      <!-- medium-up screen -->
+      <nav class="top-bar" id="nav-bar">
+        <section class="top-bar-section">
+          <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li class="has-submenu">
+              <a href="#portfolio">Portfolio</a>
+              <ul class="submenu menu vertical medium-vertical" data-submenu>
+                <li><a href="frontend">UI/UX Design and Front-end Development</a></li>
                 <li><a href="graphic">Graphic Design</a></li>
                 <li><a href="studio">Studio Art</a></li>
               </ul>
-          </li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </section>
-    </nav>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+
+      <!-- SITE TITLE -->
+      <div class="name">
+        <p>Kat Ng</p>
+      </div>
+      <div class="title">
+        <h1>Student UI/UX Designer</h1>
+      </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <a name="about"></a>
+    <div class="about">
+      <h1>About me</h1>
+      <div class="bio">
+        <p>I am Kat (Thi) Nguyen, currently a student artist based in Washington, DC. I love to create and explore. Since the collaboration between the visual arts and technology is a huge interest of mine, I am pursuing a career in UI/UX design and front-end development.</p>
+      </div>
+      <div id="resume"><a href="resume">Resume</a></div>
+    </div>
+
+    <!-- SKILLS -->
+    <a name="skills"></a>
+    <div class="site-anchor">
+      <h1>Skills</h1>
+      <ul>
+        <li>
+          
+        </li>
+      </ul>
+    </div>
       
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

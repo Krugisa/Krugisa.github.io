@@ -1,14 +1,15 @@
+/*NAV BAR*/
+
 /* Variables */
 /* Small Navigation */
-.logo-small {
-  float: right; }
 
 .title-bar {
   padding: 0 .5rem; }
 
-.menu-icon,
-.title-bar-title {
-  margin: 10px; }
+.menu-icon {
+  margin: 10px;
+
+ }
 
 /* Medium-Up Navigation */
 @media only screen and (min-width: 40rem) {
@@ -16,22 +17,134 @@
 		text-align:center;
 		background: black;
 		padding: 0;
-		height: 38px;
+		height: 42px;
+		position: fixed;
+		width: 100%;
 	}
+	/*#nav-bar {
+		width: 100%;
+	}*/
 	section.top-bar-section {
 		display: inline-block;
 	}
-		.top-bar-section ul {
+
+}
+
+.top-bar-section ul {
 			background: black;
 		}
 		.top-bar-section a {
 			color: #ffb3b3;
 			font-weight: bold;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 20px;
 		}
-		.top-bar-section li:hover {
+		.top-bar-section a:hover
+		/*.top-bar-section a:focus*/ {
 			background: rgba(255,255,255,0.3);
 		}
-	.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
-		border-color: #ffb3b3 transparent transparent;
-	}
+
+/*submenu icons*/
+.dropdown.menu.vertical > li.opens-right > a::after {
+	border-color: #ffb3b3 transparent transparent;
 }
+.is-drilldown-submenu-parent > a::after {
+	border-color: transparent transparent transparent #ffb3b3;
+}
+.js-drilldown-back > a::before {
+	border-color: transparent #ffb3b3 transparent transparent;
+}
+.dropdown-pane {
+	border: 0;
+}
+
+body {
+	/*background-color: #ffffff;*/
+	color: #ffffff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*SITE ANCHOR SIZE*/
+.site-anchor {
+	height: 100%;
+	width: 100%;
+}
+
+/*HOME*/
+div.home {
+	background-image: url(http://ddkportraits.com/wp-content/uploads/2011/11/senior-portraits-1521.jpg);
+	background-position: center;
+	background-size: cover;
+	color: #ff6666
+}
+.name {
+	width: 50%;
+	padding-top: 100px;
+	}
+	.name p{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 700;
+		font-size: 100px;
+		text-align: center;
+	}
+.title {
+	margin-top: -20px;
+	width: 50%;
+	text-align: center;
+}
+	.title h1{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		line-height: 50px;
+	}
+
+/*ABOUT ME*/
+div.about {
+	position: relative;
+	width: 100%;
+	height: 75%;
+	background-color: #ff6666;
+	text-align: center;
+	padding: 50px 0;
+}
+#resume {
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	width: 100px;
+	margin: auto;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+	#resume a{
+		color: #ffffff;
+		font-size: 25px;
+	}
+	#resume:hover{
+		border: 1px solid black;
+	}
+	#resume a:hover {
+		color: black;
+	}
+.bio {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+	padding: 0 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	.bio p{
+		margin: 0;
+		color: #ffffff;
+		font-weight: 400;
+		text-align: center;
+		font-size: 30px;
+	}
