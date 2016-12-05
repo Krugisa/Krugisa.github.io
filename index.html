@@ -6,13 +6,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kat Ng</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
   <!-- HOME -->
   <!-- <a name="home"></a> -->
-    <section id="home" data-magellan-target="home" class="home">
+    <section id="home" data-magellan-target="home" class="page-section home">
       <!-- NAV BAR -->
       <!-- small screen -->
       <div class="title-bar" data-responsive-toggle="nav-bar" data-hide-for="medium">
@@ -26,14 +27,15 @@
             <li><a href="#about">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experiences">Experiences</a></li>
-            <li class="has-submenu">
+            <!-- <li class="has-submenu">
               <a href="#portfolio">Portfolio</a>
               <ul class="submenu menu vertical medium-vertical" data-submenu>
                 <li><a href="frontend">UI/UX Design and Front-end Development</a></li>
                 <li><a href="graphic">Graphic Design</a></li>
                 <li><a href="studio">Studio Art</a></li>
               </ul>
-            </li>
+            </li> -->
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </section>
@@ -41,7 +43,7 @@
 
       <!-- SITE TITLE -->
       <div class="name">
-        <div id="title">
+        <div>
           <h1>Kat Ng</h1>
           <h2>Student UI/UX Designer</h2>
         </div>
@@ -51,7 +53,7 @@
 
     <!-- ABOUT ME -->
     <!-- <a name="about"></a> -->
-    <section class="section" id="about" data-magellan-target="about">
+    <section id="about" data-magellan-target="about">
       <div class="centered-container" id="bio">
         <h1 class="section-title">About me</h1>
         <p>I am Kat (Thi) Nguyen, currently a student artist based in Washington, DC. I love to create and explore. Since the collaboration between the visual arts and technology is a huge interest of mine, I am pursuing a career in UI/UX design and front-end development.</p>
@@ -61,16 +63,16 @@
 
     <!-- SKILLS -->
     <!-- <a name="skills"></a> -->
-    <section id="skills" data-magellan-target="skills">
+    <section id="skills" data-magellan-target="skills" class="skills">
       <dl>
         <dt>
           <h1 class="section-title">Skills</h1>
         </dt>
-        <dd class="percentage percentage-60"><span class="text">HTML/CSS</span></dd>
-        <dd class="percentage percentage-50"><span class="text">JavaScript</span></dd>
-        <dd class="percentage percentage-65"><span class="text">Photoshop</span></dd>
-        <dd class="percentage percentage-65"><span class="text">Illustrator</span></dd>
-        <dd class="percentage percentage-40"><span class="text">Python</span></dd>
+        <dd class="percentage percentage-60"><span class="text">HTML/CSS: 60%</span></dd>
+        <dd class="percentage percentage-40"><span class="text">JavaScript: 40%</span></dd>
+        <dd class="percentage percentage-70"><span class="text">Photoshop: 70%</span></dd>
+        <dd class="percentage percentage-70"><span class="text">Illustrator: 70%</span></dd>
+        <dd class="percentage percentage-35"><span class="text">Python: 35%</span></dd>
       </dl>
     </section>
 
@@ -118,18 +120,102 @@
 
     <!-- PORTFOLIO -->
     <!-- <a name="portfolio"></a> -->
-    <section id="portfolio" data-magellan-target="portfolio" class="portfolio">
+    <section id="portfolio" data-magellan-target="portfolio" class="page-section portfolio">
       <h1>Portfolio</h1>
-      <ul>
+      <!-- <ul class="">
         <li id="graphic"><a href="pages/graphic">Graphic Design</a></li>
         <li id="frontend"><a href="pages/frontend">UI/UX Design and <br> Front-end Development</a></li>
         <li id="studio"><a href="pages/studio">Studio Art</a></li>
+      </ul> -->
+
+      <ul class="tab">
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'uiux')" id="defaultOpen">UI/UX Design</a></li>
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'Graphic')">Graphic Design</a></li>
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'Studio Art')">Studio Art</a></li>
       </ul>
+
+      
+      <div id="uiux" class="tabcontent">
+        <div class="photo-grid" id="uiux-grid">
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="1" data-toggle="modal" data-target="#myModal" src='photos/uiux/home_page.jpg' alt='Developer Online Resume Mockup' caption="Mockups created with Adobe Photoshop."/>
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#myModal" src='photos/uiux/profile.jpg' alt='Personal Online Portfolio' caption="Online portfolio created with HTML/CSS, jQuerry and Boostrap."/>
+          </div>
+        </div>
+      </div>
+
+      <div id="Graphic" class="tabcontent">
+        <div class="photo-grid">
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="3" data-toggle="modal" data-target="#myModal" src='photos/graphic/bgg_logo.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="4" data-toggle="modal" data-target="#myModal" src='photos/graphic/BS_logo.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="5" data-toggle="modal" data-target="#myModal" src='photos/graphic/HU_logo.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="6" data-toggle="modal" data-target="#myModal" src='photos/graphic/kt_logo.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="7" data-toggle="modal" data-target="#myModal" src='photos/graphic/quad_illustration.jpg' alt='Text dollar code part one.' />
+          </div>
+        </div> 
+      </div>
+
+      <div id="Studio Art" class="tabcontent">
+        <div class="photo-grid">
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="8" data-toggle="modal" data-target="#myModal" src='photos/studio/fear.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="9" data-toggle="modal" data-target="#myModal" src='photos/studio/lost.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="10" data-toggle="modal" data-target="#myModal" src='photos/studio/shooting-stars.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="11" data-toggle="modal" data-target="#myModal" src='photos/studio/twinkle-duluth.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="12" data-toggle="modal" data-target="#myModal" src='photos/studio/up.jpg' alt='Text dollar code part one.' />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="13" data-toggle="modal" data-target="#myModal" src='photos/studio/forgotten_season.jpg' alt='Text dollar code part one.' />
+          </div>
+        </div> 
+      </div>
+
+      <!-- MODAL -->
+      <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                      <img class="showimage img-responsive" src="" />
+                  </div>
+                  <div class="modal-footer">
+                      <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+                      <div class="caption">
+                        <!-- <h4 class="caption img-respondive"></h4>
+                        <p>Mockups for a software developer's resume website created with Adobe Photoshop.</p> -->
+                        <h3 class="modal-title"></h3>
+                        <p class="modal-caption"></p>
+                      </div>
+                  </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
     </section>
 
     <!-- CONTACTS -->
     <!-- <a name="contact"></a> -->
-    <section id="contact" data-magellan-target="contact" class="contact">
+    <section id="contact" data-magellan-target="contact" class="page-section contact">
         <div class="container">
           <div class="my-contact">
             <h1>Contact</h1>
@@ -155,6 +241,7 @@
 
     <script src="js/main.js"></script>
     <script src="js/vendor/jquery.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
