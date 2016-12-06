@@ -60,7 +60,7 @@ $(document).foundation() ;
 })();
 
 $(document).ready(function () {
-  $('img').on('click', function () {
+  $('.photo img').on('click', function () {
       var image = $(this).attr('src');
       var caption = $(this).attr('caption');
       var title = $(this).attr("alt");
@@ -73,3 +73,6 @@ $(document).ready(function () {
       });
     });
 });
+
+var d = new Date();
+$('#year').html(d.getFullYear());

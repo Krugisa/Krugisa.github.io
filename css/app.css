@@ -83,7 +83,7 @@ html {
 .home {
 	height: 50%;
 	width: 100%;
-	background-image: url(http://ddkportraits.com/wp-content/uploads/2011/11/senior-portraits-1521.jpg);
+	background-image: url(../photos/hero.svg);
 	background-position: center;
 	background-size: cover;
 	color: #ff6666;
@@ -663,19 +663,33 @@ div.modal-footer {
 
 button.close {
 	float: right;
-	color: #ff9999;
+	color: #737373;
 	opacity: 0.7;
-	font-size: 4em;
+	font-size: 6em;
 	font-weight: 400;
+	text-shadow: none;
 }
+	button.close:hover {
+		color: #e6e6e6;
+	}
 
-h3.modal-title {
-	font-size: 1em;
+h3.modal-title, {
+	font-size: 1.4rem;
 	font-weight: 700;
 }
 
-.modal-caption {
-	font-size: 0.9em;
+.modal-caption , {
+	font-size: 1.3rem;
+}
+
+.car-caption h3 {
+	font-size: 1.4rem;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.car-caption p {
+	font-size: 1.3rem;
 }
 
 @media screen and (min-width: 50em) {
@@ -767,6 +781,7 @@ input[type=submit], input[type=reset] {
     width: 60px;
     height: 35px;
     margin-right: 10px;
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 50em) {
@@ -803,4 +818,15 @@ input[type=submit], input[type=reset] {
 	input[type=submit], input[type=reset] {
 		margin-top: 0;
 	}
+}
+
+.footer {
+	background-color: #404040;
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+}
+
+.footer p {
+	margin: 0.2rem;
 }
