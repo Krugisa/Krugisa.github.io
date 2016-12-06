@@ -83,7 +83,7 @@ html {
 .home {
 	height: 50%;
 	width: 100%;
-	background-image: url(../photos/hero-01.svg);
+	background-image: url(../photos/hero.svg);
 	background-position: center;
 	background-size: cover;
 	color: #ff6666;
@@ -91,7 +91,7 @@ html {
 /*#title {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center;s
 	align-items: center;
 }*/
 .name {
