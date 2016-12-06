@@ -1,21 +1,29 @@
-$(document).foundation() ;
+function openField(evt, fieldName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
 
-$(document).ready(function () {
-  $('img').on('click', function () {
-      var image = $(this).attr('src');
-      var caption = $(this).attr('caption');
-      var title = $(this).attr("alt");
-      //alert(image);
-      $('#myModal').on('show.bs.modal', function () {
-          $(".showimage").attr("src", image);
-          $('.modal-title').html(title);
-          $('.modal-caption').html(caption);
-      });
-      // $('.modal-title').html(title);
-      // $('.modal-caption').hmlt(caption);
-      // $('#myModal').modal({show:true});
-    });
-});
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(fieldName).style.display = "block";
+    evt.currentTarget.className += " active";
+};
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+$(document).foundation() ;
 
 (function() {
 
@@ -51,27 +59,17 @@ $(document).ready(function () {
 
 })();
 
-function openField(evt, fieldName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(fieldName).style.display = "block";
-    evt.currentTarget.className += " active";
-};
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-
+$(document).ready(function () {
+  $('img').on('click', function () {
+      var image = $(this).attr('src');
+      var caption = $(this).attr('caption');
+      var title = $(this).attr("alt");
+      //alert(image);
+      $('#myModal').on('show.bs.modal', function () {
+          $(".showimage").attr("src", image);
+          // $('.modal-body').html(image);
+          $('.modal-title').html(title);
+          $('.modal-caption').html(caption);
+      });
+    });
+});
