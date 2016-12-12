@@ -695,7 +695,7 @@ h3.modal-title, {
 @media screen and (min-width: 50em) {
 	.modal-dialog {
 		width: 55%;
-	}	
+	}
   div.photo {
     width: calc((100%/3) - 16px/3);
     height: 15em;
