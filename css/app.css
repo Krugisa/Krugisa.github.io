@@ -672,7 +672,16 @@ button.close {
 	button.close:hover {
 		color: #e6e6e6;
 	}
-
+div.carousel-inner, div.carousel, .item {
+	background-color: rgba(0,0,0,0);
+}
+.modal-body img {
+	max-height: 70vh;
+	margin: 0 auto;
+}
+/*.modal-body {
+    margin-bottom: 5px;
+}*/
 h3.modal-title, {
 	font-size: 1.4rem;
 	font-weight: 700;
@@ -692,10 +701,11 @@ h3.modal-title, {
 	font-size: 1.3rem;
 }
 
+
 @media screen and (min-width: 50em) {
-	.modal-dialog {
+	/*.modal-dialog {
 		width: 55%;
-	}
+	}*/
   div.photo {
     width: calc((100%/3) - 16px/3);
     height: 15em;
