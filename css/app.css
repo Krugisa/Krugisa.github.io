@@ -672,6 +672,11 @@ button.close {
 div.carousel-inner, div.carousel, .item {
 	background-color: rgba(0,0,0,0);
 }
+
+.carousel-caption {
+	padding-top: 20px;
+}
+
 .modal-body img {
 	max-height: 70vh;
 	margin: 0 auto;
