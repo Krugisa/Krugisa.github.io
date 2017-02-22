@@ -24,7 +24,7 @@ div.title-bar {
 		.top-bar-section a:hover {
 			background: #595959;
 		}
-		.top-bar-section a:active {
+		.top-bar-section a:active, a:focus {
 			background-color: #404040;
 		}
 
@@ -79,14 +79,14 @@ html {
 }
 
 
-/*HOME-----------------------------------*/
+/**************************************HOME******************************8*/
 .home {
 	height: 50%;
 	width: 100%;
 	background-image: url(../photos/hero-img.svg);
 	background-position: center;
 	background-size: cover;
-	color: #ff6666;
+	color: #ff9999;
 }
 /*#title {
 	display: flex;
@@ -130,7 +130,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #ff6666;
+	background-color: #f76e6e;
 	text-align: center;
 }
 .centered-container {
@@ -184,13 +184,13 @@ section.skills {
 	width: 100%;
 	padding: 25px;
 	color: #000;
-	background-color: #f2f2f2;
+	background-color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .skills h1 {
-	color: #ff6666;
+	color: #f76e6e;
 }
 
 .skills dl {
@@ -234,7 +234,7 @@ section.skills {
   .percentage::after {
     content: "";
     display: block;
-    background-color: #ff6666;
+    background-color: #f76e6e;
     width: 50px;
     margin-bottom: 10px;
     height: 90%;
@@ -369,7 +369,7 @@ section.experiences {
   bottom: 5px;
   width: 400px;
   padding: 15px;
-  background: #ff6666;
+  background: #f76e6e;
 }
 
 
@@ -389,7 +389,7 @@ section.experiences {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #ff6666 transparent transparent;
+  border-color: transparent #f76e6e transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -399,7 +399,7 @@ section.experiences {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #ff6666;
+  border-color: transparent transparent transparent #f76e6e;
 }
 
 time {
@@ -429,7 +429,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #ff6666;
+  background: #f76e6e;
 }
 
 .timeline ul li div {
@@ -516,7 +516,7 @@ time {
 	.timeline ul li:nth-child(even) div::before {
 	left: -15px;
 	border-width: 8px 16px 8px 0;
-	border-color: transparent #ff6666 transparent transparent;
+	border-color: transparent #f76e6e transparent transparent;
 	}
 
 
@@ -543,7 +543,7 @@ section.portfolio {
 	padding-top: 25px;
 	width: 100%;
 	margin: 0;
-	background-color: #e6e6e6;
+	background-color: #fff;
 }
 .portfolio h1 {
 	margin-bottom: 25px;
@@ -565,7 +565,7 @@ ul.tab {
     display: flex;
 	justify-content: center;
     background-color: #404040; 	
-  	width: 95%;
+  	width: 80%;
 }
 
 /* Float the list items side by side */
@@ -586,7 +586,7 @@ ul.tab li a {
     transition: 0.3s;
     font-size: 14px;
     font-weight: 700;
-    padding: 3px;
+    padding: 10px 8px;
 }
 
 /* Change background color of links on hover */
@@ -598,7 +598,7 @@ ul.tab li a:focus, .active {background-color: #000;}
 /* Style the tab content */
 div.tabcontent {
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -703,7 +703,7 @@ h3.modal-title, {
 	font-size: 1.3rem;
 }
 
-
+/***********BIGGER SCREEN**************/
 @media screen and (min-width: 50em) {
 	/*.modal-dialog {
 		width: 55%;
@@ -755,7 +755,7 @@ h3.modal-title, {
 
 
 
-/*CONTACT---------------*/
+/************************************CONTACT**********************************8*/
 section.contact {
 	background-color: #404040;
 	color: #fff;
@@ -778,6 +778,10 @@ section.contact {
 	.my-contact, .email-form {
 		display: block;
 	}
+	.my-contact {
+		margin-bottom: 40px;
+	}
+
 input[type=text] {
 	margin-bottom: 0;
 	height: 1.75em;
@@ -785,7 +789,7 @@ input[type=text] {
 
 input[type=submit], input[type=reset] {
 	margin-top: -20px;
-	background-color: #ff6666;
+	background-color: #f76e6e;
 	color: #fff;
 	border: none;
     border-radius: 4px;
