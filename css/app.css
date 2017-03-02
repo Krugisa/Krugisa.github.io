@@ -60,6 +60,9 @@ div.title-bar {
 }
 
 /*GENERAL---------------------------------------*/
+html {
+	overflow-x: hidden;
+}
 body {
 	color: #ffffff;
 	font-family: 'Josefin Sans', sans-serif;
@@ -544,6 +547,7 @@ section.portfolio {
 	width: 100%;
 	margin: 0;
 	background-color: #f2f2f2;
+	overflow-x: auto;
 }
 .portfolio h1 {
 	margin-bottom: 25px;
@@ -695,9 +699,7 @@ div.carousel-inner, div.carousel, .item {
 	max-height: 70vh;
 	margin: 0 auto;
 }
-/*.modal-body {
-    margin-bottom: 5px;
-}*/
+
 h3.modal-title, {
 	font-size: 1.4rem;
 	font-weight: 700;
