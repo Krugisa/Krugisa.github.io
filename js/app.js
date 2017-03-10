@@ -1,3 +1,4 @@
+//function to display and hide portfolio tabs
 function openField(evt, fieldName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -22,9 +23,9 @@ function openField(evt, fieldName) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-
+//foundation code
 $(document).foundation() ;
-
+//function to animate experience timeline
 (function() {
 
   'use strict';
@@ -58,7 +59,7 @@ $(document).foundation() ;
   window.addEventListener("scroll", callbackFunc);
 
 })();
-
+//function to display portfolio images' titles and captions
 $(document).ready(function () {
   $('.photo img').on('click', function () {
       var image = $(this).attr('src');
@@ -73,6 +74,6 @@ $(document).ready(function () {
       });
     });
 });
-
+//update year for copyright
 var d = new Date();
 $('#year').html(d.getFullYear());

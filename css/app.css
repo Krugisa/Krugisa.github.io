@@ -155,7 +155,7 @@ a:hover, a:active, a:focus {
 	margin-bottom: 0;
 }
 	#resume a{
-		padding: 1rem;
+		padding: 0 1rem;
 		color: #ffffff;
 		font-size: 1em;
 	}
