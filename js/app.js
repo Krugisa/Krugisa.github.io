@@ -68,7 +68,6 @@ $(document).ready(function () {
       //alert(image);
       $('#myModal').on('show.bs.modal', function () {
           $(".showimage").attr("src", image);
-          // $('.modal-body').html(image);
           $('.modal-title').html(title);
           $('.modal-caption').html(caption);
       });
