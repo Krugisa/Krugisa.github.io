@@ -32,7 +32,7 @@
             <!-- <li class="has-submenu">
               <a href="#portfolio">Portfolio</a>
               <ul class="submenu menu vertical medium-vertical" data-submenu>
-                <li><a href="frontend">UI/UX Design and Front-end Development</a></li>
+                <li><a hryef="frontend">UI/UX Design and Front-end Development</a></li>
                 <li><a href="graphic">Graphic Design</a></li>
                 <li><a href="studio">Studio Art</a></li>
               </ul>
@@ -86,9 +86,17 @@
         <ul>
           <li>
             <div>
+            <h2>T.A.G. Labs</h2>
+            <h3>Web Design/Development Intern</h3>
+              Help design and maintain T.A.G. Labs' website. Contribute to the process of building the organization's study management system for students and instructors.
+            </div>
+            <span><time>2017</time></span>
+          </li>
+          <li>
+            <div>
             <h2>2016-2018 PACE Competition - PUMA Project</h2>
             <h3>Design Team Member</h3>
-              Serving as a member of team 2 in the 2016-2018 PACE Competition. The team has an objective of designing a personal urban mobility access. Tasks include researching customer experience and designing the visual interface of the device.
+              Serve as a member of team 2 in the 2016-2018 PACE Competition. The team has an objective of designing a personal urban mobility access. Tasks include researching customer experience and designing the visual interface of the device.
             </div>
             <span><time>2017</time></span>
           </li>
@@ -96,10 +104,7 @@
             <div>
             <h2>Freelance Web Designer</h2>
             <h3>Web Designer/Developer</h3>
-              Serving various clients as a web designer/developer.<br>
-              On-going projects: <br>
-              - Howard University HU Swipes Organization Website
-              - Hairstylist's Portfolio Website
+              Serve various clients as a web designer/developer.
             </div>
             <span><time>2016</time></span>
           </li>
@@ -153,6 +158,9 @@
       <div id="uiux" class="tabcontent">
         <div class="photo-grid" id="uiux-grid">
           <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#huswipesCarousel" src='photos/uiux/huswipes.png' alt='HUSWipes Organization Website'/>
+          </div>
+          <div class="photo">
             <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#myModal" src='photos/uiux/online-gallery.png' alt='Photography Gallery Website (Work in Progress)' caption="In this on-going project, I am creating an online photo gallery with a minimalist approach. The website being constructed can be viewed at https://katng12.github.io/online-gallery/"/>
           </div>
           <div class="photo">
@@ -162,10 +170,52 @@
             <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#artBlogCarousel" src='photos/uiux/blog-homepage.png' alt='Studio Art Blog (Work in Progress)'/>
           </div>
           <div class="photo">
-            <img style='height: 100%; width: 100%; object-fit: cover' id="1" data-toggle="modal" data-target="#myModalCarousel" src='photos/uiux/dev-res-homepage.jpg' alt='Developer Online Resume Mockup' caption="I created website mockups, using Photoshop and Illustrator, for a client’s online resume. The website’s design incorporates elements that match with the client’s occupation as a software developer."/>
+            <img style='height: 100%; width: 100%; object-fit: cover' id="1" data-toggle="modal" data-target="#myModalCarousel" src='photos/uiux/dev-res-homepage.jpg' alt='Developer Online Resume Mockup'/>
           </div>         
         </div>
       </div>
+
+      <!-- MODAL CAROUSEL FOR HUSWIPES WEBSITE -->
+      <div id="huswipesCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="huswipesCarouselItems" class="carousel slide" data-ride="carousel">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                     <img class="img-responsive" src='photos/uiux/huswipes-wireframe.jpg' alt="HUSwipes Wireframe">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/huswipes-mockup.jpg" alt="HUSwipes Mockup">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/huswipes.png" alt="HUSwipes Homepage">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#huswipesCarouselItems" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#huswipesCarouselItems" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>HUSwipes Website</h3>
+                      <p>In this project, I designed and developed a website for the organization HUSwipes, a community service student group at Howard University. The website is built using Bootstrap and can be viewed <a href="https://katng12.github.io/HUSwipe-Website/" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
 
       <!-- MODAL CAROUSEL FOR DEVELOPER RESUME MOCKUPS -->
       <div id="myModalCarousel" class="modal fade" role="dialog">
@@ -212,7 +262,7 @@
                 <div class="modal-footer">
                     <div class="car-caption">
                       <h3>Developer Online Resume Mockups</h3>
-                      <p>I created website mockups, using Photoshop and Illustrator, for a client’s online resume. The website’s design incorporates elements that match with the client’s occupation as a software developer.</p>
+                      <p>I created website mockups, using Photoshop and Illustrator, for a developer’s online resume.</p>
                     </div>
                 </div>
               </div>    <!-- modal-content -->
@@ -257,7 +307,8 @@
                 <div class="modal-footer">
                     <div class="car-caption">
                       <h3>Personal Portfolio Website</h3>
-                      <p>Crafting my first portfolio website, which is hosted on GitHub Pages, I used a combination of HTML/CSS, JavaScript, jQuery, Foundation and Bootstrap. Throughout this project, I was able to learn a lot more about UI/UX design and front-end development. <br> My process began with researching and brainstorming for ideas. Next, I started building the site's information architecture. Then I created wireframe sketches, and then mockups for the design of the site. Finally, I began the coding process with the mobile screen view, then I moved onto larger screen views.</p>
+                      <p>This portfolio is my first major web design/development project. The site is hosted on GitHub Pages and built using a mobile-first approach.<br>
+                      Displayed here are the information architecture, wireframe sketches, and mockups that I created during the process of designing and developing the website. </p>
                     </div>
                 </div>
               </div>    <!-- modal-content -->

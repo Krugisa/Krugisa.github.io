@@ -74,6 +74,11 @@ body {
 	text-align: center;
 	color: #fff;
 }
+
+a {
+	text-decoration: none;
+}
+
 a:hover, a:active, a:focus {
 	text-decoration: none;
 }
@@ -553,6 +558,14 @@ section.portfolio {
 }
 .portfolio p {
 	color: #000;
+}
+
+.modal a {
+	color: #fff;
+}
+.modal a:hover, .modal a:active {
+	color: #ff9999;
+	background-color: transparent;
 }
 
 	/* Style the list */
