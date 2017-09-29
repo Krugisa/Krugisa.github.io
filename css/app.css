@@ -652,7 +652,9 @@ div.photo:hover img {
 div.photo:nth-of-type(2n) {
   margin-right: 0;
 }
-
+#portfolio .modal-dialog {
+	width: 100%;
+}
 div.modal-content {
 	background-color: rgba(0, 0, 0, 0.7);
 	border: none;
@@ -704,9 +706,16 @@ div.carousel-inner, div.carousel, .item {
   visibility: visible;
 }
 
-.modal-body img {
-	max-height: 70vh;
+#portfolio .carousel-inner>.item img, #portfolio .modal-body img {
+	/*max-width: 100%;*/
+	max-height: 100vh;
 	margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+	#portfolio .carousel-inner>.item img, #portfolio .modal-body img {
+		max-width: 70%;
+	}
 }
 
 h3.modal-title, {
@@ -730,10 +739,12 @@ h3.modal-title, {
 
 
 /***********BIGGER SCREEN**************/
-@media screen and (min-width: 50em) {
-	/*.modal-dialog {
-		width: 55%;
-	}*/
+@media only screen and (min-width: 768px) {
+	#portfolio .modal-dialog {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 50em) {
   div.photo {
     width: calc((100%/3) - 16px/3);
     height: 15em;
