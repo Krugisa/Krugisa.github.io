@@ -1,7 +1,3 @@
-# katng12.github.io
+# One Page Portfolio Template
 
-My Github user page is at: 
-https://github.com/katng12
-
-Soon, my homepage would be at:
-http://katng12.github.io/
+This is a one page portfolio template. A live preview can be viewed at https://thi-tn.github.io/One-Page-Portfolio-Template/
