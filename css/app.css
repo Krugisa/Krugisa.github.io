@@ -88,7 +88,7 @@ a:hover, a:active, a:focus {
 .home {
 	height: 50%;
 	width: 100%;
-	background-image: url(../photos/hero-img.svg);
+	background-image: url(../photos/Rat2.png);
 	background-position: center;
 	background-size: cover;
 	color: #ff9999;
@@ -135,7 +135,7 @@ a:hover, a:active, a:focus {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #f76e6e;
+	background-color: #37313c;
 	text-align: center;
 }
 .centered-container {
@@ -328,7 +328,7 @@ section.skills {
 /*EXPERIENCES--------------------------------*/
 section.experiences {
 	color: #fff;
-	background-color: #404040;
+	background-color: #37313c;
 }
 .experiences h1{
 	padding-top: 75px;
@@ -794,7 +794,7 @@ h3.modal-title, {
 
 /************************************CONTACT**********************************8*/
 section.contact {
-	background-color: #404040;
+	background-color: #37313c;
 	color: #fff;
 	padding: 25px;
 	padding-bottom: 50px;
