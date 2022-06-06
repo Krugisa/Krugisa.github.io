@@ -59,7 +59,7 @@
       <div class="centered-container" id="bio">
         <h1 class="section-tBLABLABLAitle">About me</h1>
         <p>I am a Unity Developer with a love for Virtual Reality. I am from Croatia and currently working in SpectreXR.</p>
-        <div id="resume"><a href="pages/MatejJelicCV.pdf" target="_blank">Resume</a></div>
+        <div id="resume"><a href="CV/MatejJelicCV.pdf" target="_blank">Resume</a></div>
       </div>
     </section>
 
