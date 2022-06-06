@@ -1,0 +1,715 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matej Jelic Portfolio</title>
+    <!-- <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+  <!-- HOME -->
+  <!-- <a name="home"></a> -->
+    <section id="home" data-magellan-target="home" class="page-section home">
+      <!-- NAV BAR -->
+      <!-- small screen -->
+      <div class="title-bar" data-responsive-toggle="nav-bar" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+      </div>
+      <!-- medium-up screen -->
+      <nav class="top-bar" id="nav-bar" data-magellan >
+        <section class="top-bar-section">
+          <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experiences">Experience</a></li>
+            <!-- <li class="has-submenu">
+              <a href="#portfolio">Portfolio</a>
+              <ul class="submenu menu vertical medium-vertical" data-submenu>
+                <li><a hryef="frontend">UI/UX Design and Front-end Development</a></li>
+                <li><a href="graphic">Graphic Design</a></li>
+                <li><a href="studio">Studio Art</a></li>
+              </ul>
+            </li> -->
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+
+      <!-- SITE TITLE -->
+      <div class="name">
+        <div>
+          <h1>Matej Jeli&cacute;</h1>
+          <h2>Unity Developer</h2>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT ME -->
+    <!-- <a name="about"></a> -->
+    <section id="about" data-magellan-target="about">
+      <div class="centered-container" id="bio">
+        <h1 class="section-tBLABLABLAitle">About me</h1>
+        <p>I am a Unity Developer with a love for Virtual Reality. I am from Croatia and currently working in SpectreXR.</p>
+        <div id="resume"><a href="pages/MatejJelicCV.pdf" target="_blank">Resume</a></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <!-- <a name="skills"></a> -->
+    <section id="skills" data-magellan-target="skills" class="skills">
+      <dl>
+        <dt>
+          <h1 class="section-title">Skills</h1>
+        </dt>
+        <dd class="percentage percentage-75"><span class="text">Unity C#: 75%</span></dd>
+        <dd class="percentage percentage-60"><span class="text">Adobe Photoshop: 60%</span></dd>
+        <dd class="percentage percentage-70"><span class="text">Virtual Reality: 70%</span></dd>
+        <dd class="percentage percentage-50"><span class="text">Augmented Reality: 50%</span></dd>
+      </dl>
+    </section>
+
+    <!-- ***************************EXPERIENCES**************************** -->
+    <!-- <a name="experiences"></a> -->
+    <section id="experience" data-magellan-target="experiences" class="experiences">
+      <h1>Experience</h1>
+      <section class="timeline">
+        <ul>
+	   <li>
+            <div>
+            <h2>OCTO XR</h2>
+            <h3>VR Plugin for Unity</h3>
+              Worked on the OctoXR plugin on the unity asset store. The plugin enables users a quick and easy way to setup a Hand Tracking project. - https://spectrexr.io/octo-xr
+            </div>
+            <span><time>2022</time></span>
+          </li>
+	  <li>
+            <div>
+            <h2>Katančićev Vremeplov</h2>
+            <h3>VR Development</h3>
+              Did a VR project for the town of Valpovo, Croatia. The VR game was made to show the life and achievements of Matija Petar Katančić who lived in Valpovo in the 18th century. - https://www.youtube.com/watch?v=9PhMOR2Zqjo
+            </div>
+            <span><time>2022</time></span>
+          </li>
+	  <li>
+            <div>
+            <h2>Started working in SpectreXR</h2>
+            <h3>VR Development</h3>
+              Started working in SpectreXR as a Programmer and VR Specialist. - https://spectrexr.io/
+            </div>
+            <span><time>2021</time></span>
+          </li>
+          <li>
+            <div>
+            <h2>Construction Crane Simulator VR</h2>
+            <h3>VR Development</h3>
+              This project was made for Gamechucks d.o.o. Hackathon/Game Jam. The simulation has realistic crane operation controlls and physical interactions. It was made for teaching and improving crane operators. - https://www.youtube.com/watch?v=Q3t8_BUK6mI
+            </div>
+            <span><time>2021</time></span>
+          </li>
+	  <li>
+            <div>
+            <h2>A1 Hrvatska d.o.o.</h2>
+            <h3>AR Development</h3>
+               I did a project for A1 Croatia. The app showed models and information about phones in real space for A1 shops.
+            </div>
+            <span><time>2021</time></span>
+          </li>
+          <li>
+            <div>
+            <h2>Pismo Incubator</h2>
+            <h3>Unity C# Education</h3>
+              Finished a Unity C# Education in Pismo Inkubator, Novska, Croatia.
+            </div>
+            <span><time>2021</time></span>
+          </li>
+          <li>
+            <div>
+            <h2>Mira's Tale</h2>
+            <h3>VR Development</h3>
+               Mira's Tale is my finals project at pismo inkubator. It is a story driven puzzle game with gesture based magic system. You play a witch(Mira) in search for her friend. - https://www.youtube.com/watch?v=SuBSlMhhUM0
+            </div>
+            <span><time>2021</time></span>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ********************************PORTFOLIO ************************-->
+    <!-- <a name="portfolio"></a> -->
+    <section id="portfolio" data-magellan-target="portfolio" class="page-section portfolio">
+      <h1>Portfolio</h1>
+      <!-- <ul class="">
+        <li id="graphic"><a href="pages/graphic">Graphic Design</a></li>
+        <li id="frontend"><a href="pages/frontend">UI/UX Design and <br> Front-end Development</a></li>
+        <li id="studio"><a href="pages/studio">Studio Art</a></li>
+      </ul> -->
+
+
+      <!-- TAB TITLES -->
+      <ul class="tab">
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'VR')" id="defaultOpen">VR</a></li>
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'AR')">AR</a></li>
+        <li><a href="javascript:void(0)" class="tablinks" onclick="openField(event, 'Art')">Art</a></li>
+      </ul>
+
+      <!-- UI/UX TAB -->
+      <div id="VR" class="tabcontent">
+        <div class="photo-grid" id="uiux-grid">
+		  <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#myModalCarousel4" src='photos/uiux/Octo3.PNG' alt='OctoXR'/>
+          </div>
+		  <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#myModalCarousel3" src='photos/uiux/MPK3.PNG' alt='Katancicev Vremeplov'/>
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#myModalCarousel" src='photos/uiux/MR2.PNG' alt='Mira`s tale VR'/>
+          </div>
+		  <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="2" data-toggle="modal" data-target="#myModalCarousel2" src='photos/uiux/1.PNG' alt='Crane Operator Simulator VR'/>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL CAROUSEL FOR HUSWIPES WEBSITE -->
+      <div id="huswipesCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="huswipesCarouselItems" class="carousel slide">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                     <img class="img-responsive" src='photos/uiux/huswipes-wireframe.jpg' alt="HUSwipes Wireframe">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/huswipes-mockup.jpg" alt="HUSwipes Mockup">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/huswipes.png" alt="HUSwipes Homepage">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#huswipesCarouselItems" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#huswipesCarouselItems" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>HUSwipes Website</h3>
+                      <p>In this project, I designed and developed a website for the organization HUSwipes, a community service student group at Howard University. The website is built using Bootstrap and can be viewed <a href="https://katng12.github.io/HUSwipe-Website/" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+      <!-- MODAL CAROUSEL FOR DEVELOPER RESUME MOCKUPS -->
+	
+	<div id="myModalCarousel4" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="carousel-example-generic" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img class="img-responsive" src="photos/uiux/Octo1.png" alt="OctoXR">
+                    </div>
+					<div class="item">
+                      <img class="img-responsive" src="photos/uiux/Octo2.png" alt="OctoXR">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src='photos/uiux/Octo3.png' alt="OctoXR">
+					</div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/Octo4.png" alt="OctoXR">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>OctoXR Plugin For Unity</h3>
+                      <p></p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+	  
+	 <div id="myModalCarousel3" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="carousel-example-generic" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img class="img-responsive" src="photos/uiux/MPK1.png" alt="Katancicev Vremeplov">
+                    </div>
+					<div class="item">
+                      <img class="img-responsive" src="photos/uiux/MPK2.png" alt="Katancicev Vremeplov">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src='photos/uiux/MPK3.png' alt="Katancicev Vremeplov">
+					</div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/MPK5.png" alt="Katancicev Vremeplov">
+                    </div>
+					 <div class="item">
+                      <img class="img-responsive" src="photos/uiux/MPK6.png" alt="Katancicev Vremeplov">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Katančićev Vremeplov</h3>
+                      <p></p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+      <div id="myModalCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="carousel-example-generic" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img class="img-responsive" src="photos/uiux/MR1.png" alt="Mira's Tale VR">
+                    </div>
+		    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/MR2.png" alt="Mira's Tale VR">
+                    </div>
+                    <div class="item">
+                     <img class="img-responsive" src='photos/uiux/MR3.png' alt="Mira's Tale VR">
+		    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/MR4.png" alt="Mira's Tale VR">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Mira's Tale VR</h3>
+                      <p></p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+      <div id="myModalCarousel2" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="carousel-example-genericc" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img class="img-responsive" src='photos/uiux/3.png' alt="Crane Operator Sim">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/4.png" alt="Crane Operator Sim">
+                    </div>
+		    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/5.png" alt="Crane Operator Sim">
+                    </div>
+		    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/6.png" alt="Crane Operator Sim">
+                    </div>
+                    <div class="item">
+                     <img class="img-responsive" src='photos/uiux/8.png' alt="Crane Operator Sim">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/9.png" alt="Crane Operator Sim">
+                    </div>
+		    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/10.png" alt="Crane Operator Sim">
+                    </div>
+	            <div class="item">
+                      <img class="img-responsive" src="photos/uiux/11.png" alt="Crane Operator Sim">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-genericc" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-genericc" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Crane Operator Simulator VR</h3>
+                      <p></p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+      <!-- MODAL CAROUSEL FOR PERSONAL PORTFOLIO-->
+      <div id="personalPortfolioCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="personalPortfolioCarouselItems" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                     <img class="img-responsive" src='photos/uiux/portfolio-wireframe.jpg' alt="...">
+                      <!-- <div class="carousel-caption">
+                        Home page
+                      </div> -->
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/portfolio-info-arch.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/portfolio-website.png" alt="...">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#personalPortfolioCarouselItems" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#personalPortfolioCarouselItems" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Personal Portfolio Website</h3>
+                      <p>This portfolio is my first major web design/development project. The site is hosted on GitHub Pages and built using a mobile-first approach.<br>
+                      Displayed here are the information architecture, wireframe sketches, and mockups that I created during the process of designing and developing the website. </p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+      <!-- MODAL CAROUSEL FOR STUDIO ART BLOG WIP-->
+      <div id="artBlogCarousel" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div id="artBlogCarouselItems" class="carousel slide" >
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                     <img class="img-responsive" src='photos/uiux/blog-wireframe.jpg' alt="...">
+                      <!-- <div class="carousel-caption">
+                        Home page
+                      </div> -->
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/blog-info-arch.jpg" alt="...">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/blog-homepage.png" alt="...">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/blog-about.png" alt="...">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/blog-stories.png" alt="...">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/blog-story-example.png" alt="...">
+                    </div>
+                    <div class="item">
+                      <img class="img-responsive" src="photos/uiux/blog-contact.png" alt="...">
+                    </div>
+                  </div> <!-- wrapper -->
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#artBlogCarouselItems" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#artBlogCarouselItems" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                </div>  <!-- modal-body -->
+
+                <div class="modal-footer">
+                    <div class="car-caption">
+                      <h3>Studio Art Blog (Work in Progress)</h3>
+                      <p>In this on-going project, I seek to create a personal blog dedicated to my practice in studio art. The images displayed here are mockups created with Adobe Photoshop.</p>
+                    </div>
+                </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+
+      <!-- *****************GRAPHIC DESIGN TAB******************* -->
+      <div id="AR" class="tabcontent">
+        <div class="photo-grid">
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="1" data-toggle="modal" data-target="#FlyersModalCarousel" src='photos/uiux/AR1.jpg' alt='A1 AR Project' caption="This project was made with Pismo Incubator in Novska. A1 Contracted me to make a Agumented Reality app to show realistic phones in real space." />
+          </div>
+	  <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' id="1" data-toggle="modal" data-target="#FlyersModalCarousel2" src='photos/uiux/Birb1.png' alt='Angry Birs Clone for Gamejam' caption="This angry birds clone was made for a 3 days long gamejam in pismo inkubator. It was the first time using any kind of AR in unity and i thought i'd challange myself." />
+          </div>
+
+          <!-- FLYERS -->
+
+          <!-- MODAL CAROUSEL FOR FLYERS-->
+          <div id="FlyersModalCarousel" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="flyer-carousel" class="carousel slide" data-ride="carousel">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="img-responsive" src='photos/uiux/AR1.jpg' alt="...">
+                        </div>
+                        <div class="item">
+                          <img class="img-responsive" src="photos/uiux/AR2.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                          <img class="img-responsive" src="photos/uiux/AR3.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                          <img class="img-responsive" src="photos/uiux/AR4.jpg" alt="...">
+                        </div>
+                      </div> <!-- wrapper -->
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#flyer-carousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#flyer-carousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    </div>  <!-- modal-body -->
+
+                    <div class="modal-footer">
+                        <div class="car-caption">
+                          <h3>A1 Croatia - AR Project</h3>
+                          <p></p>
+                        </div>
+                    </div>
+                  </div>    <!-- modal-content -->
+              </div>  <!-- modal-dialog -->
+          </div> <!-- modal -->
+	  <div id="FlyersModalCarousel2" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="flyer-carousell" class="carousel slide" data-ride="carousel">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                         <img class="img-responsive" src='photos/uiux/Birb1.png' alt="...">
+                        </div>
+                        <div class="item">
+                          <img class="img-responsive" src="photos/uiux/Birb10.png" alt="...">
+                        </div>
+                        <div class="item">
+                          <img class="img-responsive" src="photos/uiux/Birb2.png" alt="...">
+                        </div>
+                        <div class="item">
+                          <img class="img-responsive" src="photos/uiux/Birb4.png" alt="...">
+                        </div>
+		        <div class="item">
+                          <img class="img-responsive" src="photos/uiux/Birb7.png" alt="...">
+                        </div>
+			<div class="item">
+                          <img class="img-responsive" src="photos/uiux/Birb9.png" alt="...">
+                        </div>
+			 <div class="item">
+                          <img class="img-responsive" src="photos/uiux/Birb3.png" alt="...">
+                        </div>
+                      </div> <!-- wrapper -->
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#flyer-carousell" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#flyer-carousell" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    </div>  <!-- modal-body -->
+
+                    <div class="modal-footer">
+                        <div class="car-caption">
+                          <h3>Angry Birds Clone (Game Jam)</h3>
+                          <p></p>
+                        </div>
+                    </div>
+                  </div>    <!-- modal-content -->
+              </div>  <!-- modal-dialog -->
+          </div>
+        </div> 
+      </div>
+
+      <div id="Art" class="tabcontent">
+        <div class="photo-grid">
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' data-toggle="modal" data-target="#myModal" src='photos/studio/Art1.png' alt='A new beginning' caption="" />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover'data-toggle="modal" data-target="#myModal" src='photos/studio/Art2.png' alt='Sara the witch' caption="" />
+          </div>
+           <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover' data-toggle="modal" data-target="#myModal" src='photos/studio/Art3.png' alt='Moonglow' caption="" />
+          </div>
+          <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover'data-toggle="modal" data-target="#myModal" src='photos/studio/Art4.png' alt='Vodotoranj' caption="" />
+          </div> 
+		  <div class="photo">
+            <img style='height: 100%; width: 100%; object-fit: cover'data-toggle="modal" data-target="#myModal" src='photos/studio/Art5.png' alt='Bobtastic' caption="" />
+          </div>
+        </div> 
+      </div>
+
+      <!--********** MODAL FOR SINGLE IMAGES *********** -->
+      <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                      <img class="showimage img-responsive" src="" />
+                  </div>
+                  <div class="modal-footer">
+                      <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+                      <div class="caption">
+                        <h3 class="modal-title"></h3>
+                        <p class="modal-caption"></p>
+                      </div>
+                  </div>
+              </div>    <!-- modal-content -->
+          </div>  <!-- modal-dialog -->
+      </div> <!-- modal -->
+
+    </section>
+
+
+    <!-- CONTACTS -->
+    <!-- <a name="contact"></a> -->
+    <section id="contact" data-magellan-target="contact" class="page-section contact">
+        <div class="container">
+          <div class="my-contact">
+            <h1>Contact</h1>
+            <h2>Matej Jelic</h2>
+            <p>krugisa.itch.io</p>
+            <p>matejjelic96@gmail.com</p>
+          </div>
+          <div class="email-form">
+            <h2>Leave a message</h2>
+            <form action="mailto:matejjelic96@gmail.com" method="post" enctype="text/plain">
+              Name:<br>
+              <input type="text" name="name"><br>
+              E-mail:<br>
+              <input type="text" name="mail"><br>
+              Message:<br>
+              <input type="text" name="comment" size="50"><br><br>
+              <input type="submit" value="Send">
+              <input type="reset" value="Reset">
+            </form>
+          </div>   
+        </div>       
+    </section>
+    <section class="footer">
+      <p>Copyright &copy; <span id="year"></span> Matej Jelić</p>
+    </section>
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/vendor/jquery.js"></script>
+   <!--  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
